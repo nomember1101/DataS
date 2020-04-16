@@ -6,7 +6,5 @@ class Location:
         self.lat=lat
         self.lon=lon
         self.stationid=stationid
-        self.time=time
-        self.weather_element=weather_element
     def from_json(self,json_data):
         self.locationName=json_data.get('locationName')
